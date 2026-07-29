@@ -95,8 +95,7 @@ Clipmap 测试工程提供多种显示模式：
 
 演示：
 
-![Clipmap Demo](mdResource/video/clipmapDemo.gif)
-
+![alt text](mdResource/video/clipmapDemo.gif)
 ### 3. Cascade Shadow Map 级联阴影
 
 项目实现了级联阴影的独立 Demo 与主工程集成：
@@ -146,7 +145,7 @@ SkyBox 工程通过 6 张 BMP 图片构建立方体天空盒，用于验证天�
 
 ![SkyBox 结构](mdResource/skyStructuare.png)
 
-![SkyBox Demo](mdResource/video/skyBox.gif)
+![alt text](zipVideo/skyBox.gif)
 
 ThreadPool 当前作为独立测试模块保留，后续可用于资源加载、实例生成或 CPU 侧数据预处理等任务。
 
@@ -162,8 +161,7 @@ ThreadPool 当前作为独立测试模块保留，后续可用于资源加载、
 
 演示：
 
-![Engine Demo](mdResource/video/Engine.gif)
-
+![alt text](mdResource/video/Engine.gif)
 ## 关键配置宏
 
 当前主工程中部分参数可通过宏控制，适合在 CMake 中通过 `target_compile_definitions()` 覆盖：
